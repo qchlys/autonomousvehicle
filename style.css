@@ -1,0 +1,165 @@
+img{
+	width:100%;
+}
+.navbar{
+	width:100%;
+	height:100%;
+	animation: fadeIn 3s;
+	background-image: url('https://wallpaperaccess.com/full/395858.jpg');
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	overflow: hidden;
+}
+.navbar a{
+	float: left;
+	text-decoration:none;
+	font-size:17px;
+	padding:20px 25px;
+	font-family:verdana;
+	color:black;
+	background-image: linear-gradient(black, transparent);
+	transition: transform .5s ease;
+}
+.navbar a:hover{
+	transform: scale(1.5);
+}
+@keyframes fadeIn{
+	0% { opacity: 0; }
+	100% { opacity: 1 }
+}
+#title{
+	text-align: center;
+	text-shadow: 2px 2px #E9E8E8;
+}
+.infor{
+	font-family:verdana;
+	text-align: left;
+	color:white;
+	padding-left:1%;
+	padding-bottom:1%;
+}
+#hi{
+	font-family:verdana;
+	text-align: left;
+	color:white;
+}
+#info{
+	background-image: url('0x0.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	width:100%;
+	height:100%;
+	padding-top:2%;
+	justify-content:space-between;
+}
+.quote{
+	text-align:center;
+	color:white;
+	font-family: verdana;
+	padding-top:25%;
+	padding-left:30%;
+	text-shadow: 2px 2px black;
+
+}
+#auth{
+	text-align:right;
+	color:black;
+	font-family:verdana;
+	padding-right:26%;
+}
+.imp{
+	width:45%;
+	height:70%;
+	float: left;
+}
+.h1{
+	font-family: verdana;
+	text-shadow: 2px 2px #E9E8E8;
+}
+
+#importance{
+
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	width:100%;
+	height:95%;
+	padding-top:2%;
+	justify-content:space-between;
+	background-image: url('HoloLensLoop.gif');
+	background-repeat:repeat;
+}
+#inform1{
+	display: none;
+	text-align: center;
+	background-image: url('research background.avif');
+}
+.i1{
+	font-family:verdana;
+}
+#moreInfo{
+	width:100%;
+	height:100%;
+	text-align:center;
+	background-image:url('research background.avif');
+}
+#btn1{
+	font-size: 25px;
+	font-family:verdana;
+	background-image: url('research background.avif');
+	margin: 25px;
+	margin-top:50px;
+}
+#lvl{
+	text-align:center;
+}
+#btn2{
+	font-size: 25px;
+	font-family:verdana;
+	background-image: url('research background.avif');
+	margin: 25px;
+}
+#inform2{
+	display: none;
+	text-align: center;
+	background-image: url('research background.avif');
+}
+#inform3{
+	display: none;
+	text-align: center;
+	background-image: url('research background.avif');
+}
+#btn3{
+	font-size: 25px;
+	font-family:verdana;
+	background-image: url('research background.avif');
+	margin: 25px;
+}
+h3{
+	font-family:verdana;
+	text-shadow: 2px 2px #E9E8E8;
+}
+#companies{
+	background-color:white;
+}
+.comps{
+	height:40%;
+	width:40%;
+	float:left;
+}
+.cmps{
+	font-family:verdana;
+	text-shadow: 2px 2px #E9E8E8;
+}
+h2{
+	font-family:verdana;
+	text-shadow: 2px 2px #E9E8E8;
+}
+#footer{
+	text-align:center;
+	background-color:#27374D;
+}
+html {
+	scroll-behavior: smooth;
+}
